@@ -1,5 +1,5 @@
 import * as T from 'three';
-import { popularModels, makePopularTemplate } from './popular-models.js';
+import { popularModels, makePopularTemplate } from './popular-models.js?v=a5f2aac9518f';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { TransformControls } from 'three/addons/controls/TransformControls.js';
 import { RoundedBoxGeometry } from 'three/addons/geometries/RoundedBoxGeometry.js';
