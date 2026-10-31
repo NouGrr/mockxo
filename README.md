@@ -1,6 +1,16 @@
 # Mockxo — Le studio 3D par NEXO
 
-Première version fonctionnelle, exécutée dans le navigateur. Aucune installation requise pour lancer l’application :
+Première version fonctionnelle, exécutée dans le navigateur.
+
+Site : https://nougrr.github.io/mockxo/
+
+## Déploiement GitHub Pages
+
+Le workflow `.github/workflows/pages.yml` publie le dossier `dist/` après chaque push de modifications du site sur `main`. Un déploiement peut également être lancé manuellement depuis l’onglet Actions. Dans les paramètres du dépôt, GitHub Pages utilise **GitHub Actions** comme source. Les liens et imports sont relatifs pour fonctionner sous `/mockxo/`.
+
+## Lancement local
+
+ Aucune installation requise pour lancer l’application :
 
 ```sh
 cd dist
