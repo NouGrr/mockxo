@@ -22,7 +22,7 @@ Ouvrir http://localhost:4173. Le studio s’ouvre depuis le bouton de l’accuei
 ## Inclus
 
 - Accueil responsive, démonstration WebGL orbitale et aperçus réellement rendus.
-- Six primitives, quatre scènes procédurales originales, sélection et manipulation par axes.
+- Six primitives, douze scènes procédurales originales, sélection et manipulation par axes.
 - Position, rotation, échelle, dimensions, duplication, renommage, masquage et suppression.
 - Matériaux, couleurs, rugosité, métallicité, opacité, éclairages et fond.
 - Import GLB / GLTF avec ressources locales, conservation des hiérarchies et des matériaux.
@@ -42,8 +42,12 @@ Le choix statique permet de livrer le MVP sans infrastructure ni compilation. Re
 
 Un projet actif par navigateur ; sauvegarde sur l’appareil uniquement. Télécharger une copie avant de supprimer les données du navigateur. Les fichiers GLTF doivent être sélectionnés avec leurs `.bin` et textures ; les noms de ressources doivent être uniques. Draco et KTX2 ne sont pas pris en charge. Limites : 50 Mo par import, 600 000 triangles par modèle, 150 objets par scène. La fluidité et le rendu 4K dépendent du GPU et du navigateur.
 
-Les scènes smartphone et flacon sont des géométries procédurales personnalisables. L’application de visuels sur une surface de mockup, les formats OBJ/STL/FBX, le texte 3D, l’export de modèles, l’animation, l’IA et la collaboration restent à développer dans les phases suivantes. Aucune page SEO n’est publiée pour un outil non développé.
+Les scènes sont des géométries procédurales personnalisables : t-shirt, tote bag, mug, cartes de visite, affiche, ordinateur portable, boîte, canette, smartphone, flacon et deux compositions abstraites. L’application de visuels sur une surface de mockup, les formats OBJ/STL/FBX, le texte 3D, l’export de modèles, l’animation, l’IA et la collaboration restent à développer dans les phases suivantes. Aucune page SEO n’est publiée pour un outil non développé.
 
 ## Vérification
 
 La syntaxe se vérifie avec `node --check dist/app.js`. Les parcours navigateur couvrent l’ajout et la transformation, duplication/suppression, annulation, persistance après rechargement, téléchargement PNG transparent et projet, import GLB/GLTF et affichage mobile. Voir `QA.md` pour le résultat des vérifications.
+
+## Choix des modèles ajoutés
+
+Les huit ajouts couvrent les catégories récurrentes des catalogues [Placeit](https://help.placeit.net/hc/en-us/articles/37793387739161-Why-do-I-need-Placeit) et [Mockup World](https://www.mockupworld.co/) : textile, objets promotionnels, papeterie, affiches, packaging et appareils. Cette sélection reflète leur présence dans ces catalogues, sans prétendre à un classement chiffré des usages. Les géométries sont originales et générées localement ; aucun modèle tiers n’est téléchargé.

@@ -15,3 +15,13 @@ Vérifié le 31 octobre 2026 avec Chromium / Playwright, WebGL activé via Swift
 - Syntaxe : `node --check dist/app.js`.
 
 Le parcours principal se termine sans erreur JavaScript dans la console. Les captures et fichiers exportés ont été inspectés localement. Les performances sur appareil physique, Safari, Firefox et les très gros modèles restent à vérifier.
+
+## Extension du catalogue — 31 octobre 2026
+
+- 12 vignettes WebGL générées et cadrage inspecté visuellement.
+- Ouverture des huit nouvelles scènes depuis le studio ; entrée depuis le catalogue avec guide de première visite.
+- Filtres : Textile (2), Édition (2), Technologie (2), Packaging (4), Abstrait (2).
+- Recherche : tasse, boite, ecran et t-shirt retrouvent les modèles attendus.
+- Projet canette téléchargé, scène sauvegardée puis restaurée au rechargement.
+- Accueil vérifié en 390 × 844, sans débordement horizontal.
+- Aucune erreur JavaScript pendant ce parcours ; syntaxe des deux modules et `git diff --check` valides.
